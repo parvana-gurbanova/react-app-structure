@@ -75,7 +75,9 @@
     "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "git-commit": "git add . && git commit -m 'test'",
+    "git-push": "git push origin development"
   },
   "eslintConfig": {
     "extends": [
