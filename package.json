@@ -76,7 +76,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "git-commit": "git add . && git commit -m 'test'",
+    "git-commit": "git status && git add . && git commit -m $message",
     "git-push": "git push origin development"
   },
   "eslintConfig": {
