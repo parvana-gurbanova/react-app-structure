@@ -76,7 +76,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "git-commit": "git status && git add . && git commit -m ",
+    "git-commit": "git status && git add . && git commit -m $npm_config_message",
     "git-push": "git push origin development",
     "demo": "echo \"Hello $npm_config_first $npm_config_last\""
   },
